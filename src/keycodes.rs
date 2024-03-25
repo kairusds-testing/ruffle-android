@@ -34,7 +34,7 @@ pub fn android_keycode_to_ruffle(android: Android) -> Option<Ruffle> {
         Android::Tab => Ruffle::Tab,
         Android::Space => Ruffle::Space,
         Android::Enter => Ruffle::Return,
-        Android::Del => Ruffle::Backspace, // AKEYCODE_DEL is the backspace key in Android.
+        Android::Del => Ruffle::Delete,
         Android::Grave => Ruffle::Grave,
         Android::Minus => Ruffle::Minus,
         Android::Equals => Ruffle::Equals,
