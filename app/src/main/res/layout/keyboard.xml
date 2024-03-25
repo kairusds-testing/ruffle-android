@@ -337,6 +337,15 @@
                 android:layout_weight="1"
                 android:tag="77 m"
                 android:text="M" />
+
+            <Button
+                android:id="@+id/button_backspace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="8"
+                android:text="⌫" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -374,7 +383,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:tag="37"
-                android:text="(" />
+                android:text="◀" />
 
             <Button
                 android:id="@+id/button_up"
@@ -382,7 +391,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:tag="38"
-                android:text="^" />
+                android:text="▲" />
 
             <Button
                 android:id="@+id/button_down"
@@ -390,7 +399,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:tag="40"
-                android:text="v" />
+                android:text="▼" />
 
             <Button
                 android:id="@+id/button_right"
@@ -398,8 +407,15 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:tag="39"
-                android:text=")" />
+                android:text="▶" />
 
+            <Button
+                android:id="@+id/button_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="108"
+                android:text="⏎" />
         </LinearLayout>
     </LinearLayout>
 
